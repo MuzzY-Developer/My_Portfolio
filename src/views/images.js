@@ -1,0 +1,12 @@
+export { default as img1} from "@/assets/images/Homefon.jpg"
+export { default as img2} from "@/assets/images/Aboutfon.jpg"
+export { default as img3} from "@/assets/images/Myprojectfon3.jpg"
+export { default as img4} from "@/assets/images/Contactfon.jpg"
+
+export { default as icon1} from "@/assets/icons/phone.svg"
+export { default as icon2} from "@/assets/icons/email.svg"
+export { default as icon3} from "@/assets/icons/gmail.svg"
+export { default as icon4} from "@/assets/icons/github.svg"
+export { default as icon5} from "@/assets/icons/telegram.svg"
+export { default as icon6} from "@/assets/icons/instagram.svg"
+export { default as icon7} from "@/assets/icons/facebook.svg"

@@ -1,0 +1,45 @@
+.contactpages{
+    &__container{
+        padding:50px;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        @media screen and (max-width:480px) {
+            padding:5px;
+        }
+        &-card{
+            display: flex;
+            max-width: 400px;
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            padding:5px 10px;
+            background: rgba(0, 0, 0, 0.5);
+            transition: 0.5s;
+            @media screen and (max-width:480px) {
+                gap:0px;
+            }
+            cursor: pointer;
+            &:hover{
+                background: rgba(0, 215, 162, 0.5);
+            }
+            &-text{
+                width: 280px;
+                text-align: end;
+                font-family: 'Montserrat-Regular';
+                color:white;
+                font-size: 18px;
+            }
+            &-images{
+                max-width: 50px;
+                display: flex;
+                img{
+                    width: 100%;
+                    filter:drop-shadow(1px 1px 1px #000000);
+                    opacity: 90%;
+                }
+            }
+        }
+    }
+}

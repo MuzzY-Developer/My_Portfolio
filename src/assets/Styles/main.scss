@@ -1,0 +1,203 @@
+@import "@/assets/Styles/fonts.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+ul{
+    list-style: none;
+}
+input {
+    outline: none;
+}
+body{
+    background: linear-gradient(90deg, rgb(22, 17, 27), #001210);
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     position: relative;
+     padding:30px 0px;
+     max-height: 1000px;
+    &__banner{
+    position: absolute;
+    top:0;
+    width: 100%;
+    max-height: 1000px;
+    z-index: -1;
+    mask-image: linear-gradient(to top, transparent 0.01%, black);
+   }
+    &__banner-2{
+        position: absolute;
+        width: 100%;
+        top:50%;
+        max-height: 1000px;
+        z-index: -1;
+    }
+
+    &__container{
+        max-width: 1200px;
+        width: 100%;
+
+        margin:0 auto;
+        padding: 0px 50px;
+        &-title{
+            margin-left: 60%;
+            font-size: 52px;
+            margin-top: 100px;
+            color:white;
+            font-family:'Unbounded-Regular';
+            color: rgb(234, 0, 82);
+            font-family: "Protest-Regular";
+            font-size: 38px;
+            font-weight: bold;
+            line-height: 50px;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 100%;
+            background-image: linear-gradient(35deg, #ffffff, #ffffff, #0423c3, );
+            text-transform: uppercase;
+            animation: 2s neon-1 alternate-reverse infinite;
+            filter: drop-shadow(2px 2px 3px #000000);
+            span{
+                font-family:'AlayaRoza';
+                font-size: 42px;
+            }
+            @media screen and (max-width:768px) {
+                margin-left: 20%;
+            }
+            @media screen and (max-width:768px) {
+                display: flex;
+                flex-direction: column;
+                margin-left: 0px;
+                text-align: center;
+              }
+              @media screen and (max-width:480px) {
+                font-size: 30px;
+              }
+              
+        }
+        
+    }
+}
+
+.nav{
+    &__container{
+        max-width: 800px;
+        width: 100%;   
+        ul{
+            display: flex;
+            color:white;
+             
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            @media screen and (max-width:768px) {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                gap:10px;
+              }
+
+            li{
+                padding:5px 10px;
+                text-transform: uppercase;
+                a{
+                    color:whitesmoke;
+                    filter:drop-shadow(1px 1px 1px #000000);
+                }
+            }
+            .router-link-active{
+                background: linear-gradient(90deg, #ee7752, #F64444);
+                color:rgb(238, 237, 237);
+                background-size: 400% 400%;
+                animation: gradient 10s ease infinite;
+                transform: translate3d(0, 0, 0);
+                box-shadow: 0px 0px 1px 1px #5d0000;
+                padding:5px 10px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.main{
+    margin-top: 50px;
+    position: relative;
+    padding:0px 20px;
+    @media screen and (max-width:768px) {
+        padding:0px;
+      }
+    flex-grow: 1;
+    &__container{
+        max-width: 1200px;
+        border:1px solid black;
+        margin:0 auto;
+        box-shadow: 0px 0px 100px 5px #000000;
+        backdrop-filter: blur(5px);
+        border-radius: 8px;
+    }
+
+}
+
+.footer{
+    width: 100%;
+    background:linear-gradient(180deg, rgb(0, 0, 0, 0.01), #000000);
+    padding:100px 0px;
+    &__container{
+        max-width: 1200px;
+        margin:0 auto;
+       &-title{
+        color:rgb(162, 158, 158);
+        font-size: 22px;
+        text-align: center;
+       }
+    }
+    
+}
+
+@import "@/components/Pages/aboutpages.scss";
+@import "@/components/Pages/contactpages.scss";
+@import "@/components/Pages/homepages.scss";
+@import "@/components/Pages/myprojectpages.scss";
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+@keyframes neon-2 {
+    from {
+        text-shadow:
+            0 0 10px #000000,
+            0 0 15px #00594d,
+            0 0 10px #00856f;
+    }
+
+    to { 
+    }
+}
+@keyframes neon-1 {
+    from {
+        text-shadow:
+       
+            0 0 7px #00c2c2,
+            0 0 5px #ffffff;
+    }
+
+    to { 
+    }
+}
