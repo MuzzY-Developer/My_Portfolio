@@ -1,13 +1,15 @@
+
+
 const myfiles =[
     {
-        movie:"/src/assets/movie/Cinema.mp4",
-        name:"Cinema",
+        movie:"/src/components/Pages/Cinema.mp4",
+        name: "Cinema",
         tegs:"(В разработке)",
         path:"",
         class:"myprojectpages__container__cards-card-subtitleedite"
     },
     {
-        movie:"/src/assets/movie/ThronOfliberty.mp4",
+        movie:"/src/components/Pages/Cinema.mp4",
         name:"ThronOfliberty",
         tegs:"(В разработке)",
         path:"",
