@@ -53,9 +53,6 @@ body{
             margin-left: 60%;
             font-size: 52px;
             margin-top: 100px;
-            color:white;
-            font-family:'Unbounded-Regular';
-            color: rgb(234, 0, 82);
             font-family: "Protest-Regular";
             font-size: 38px;
             font-weight: bold;
@@ -65,7 +62,7 @@ body{
             background-size: 100%;
             background-image: linear-gradient(35deg, #ffffff, #ffffff, #0423c3, );
             text-transform: uppercase;
-            animation: 2s neon-1 alternate-reverse infinite;
+            animation: 2s neon-3 alternate-reverse infinite;
             filter: drop-shadow(2px 2px 3px #000000);
             span{
                 font-family:'AlayaRoza';
@@ -85,7 +82,92 @@ body{
               }
               
         }
-        
+        .logo{
+            margin-top: 100px;   
+            margin-left: 60%;  
+            @media screen and (max-width: 768px) {
+               display: flex;
+               flex-direction: column;
+               margin: 0px;
+               text-align: center;
+            }
+              .logo__name-text {
+                background-image: url(https://i.gifer.com/origin/52/52395a49c46de2dd302cf2036724c9b7_w200.gif);
+                background-size: 25%;
+                color: rgba(148, 148, 148, 0.2);
+                -moz-background-clip: text;
+                -webkit-background-clip: text;
+                text-transform: uppercase;
+                font-size: 52px;
+                margin-top: 100px;
+                font-family: "Protest-Regular";
+                font-size: 38px;
+                font-weight: bold;
+                line-height: 50px;
+                letter-spacing: 1px;
+                line-height:2;
+                filter: drop-shadow(3px 3px 5px #ffffff);
+                @media screen and (max-width:480px) {
+                    font-size: 32px;
+                }
+              }
+              /* styling my button */
+              
+              .white-mode {
+                text-decoration: none;
+                padding: 7px 10px;
+                background-color: #122;
+                border-radius: 3px;
+                color: #FFF;
+                transition: 511s ease-in-out;
+                position: absolute;
+                left: 15px;
+                bottom: 15px;
+                font-family: "Montserrat";
+              }
+              
+              .white-mode:hover {
+                background-color: #FFF;
+                color: #122;
+              }
+              .logo__title-text {
+                background-image: url(https://i.pinimg.com/originals/09/3a/2c/093a2ca8c22d2e4670a4573ea862fe25.gif);
+                background-size:70%;
+                color: rgba(104, 104, 104, 0.2);
+                -moz-background-clip: text;
+                -webkit-background-clip: text;
+                font-size: 60px;
+                font-family:'AlayaRoza';
+                font-weight: bold;
+                line-height: 50px;
+                margin-top: -25px;
+                letter-spacing: 1px;
+                line-height:2;
+                filter: drop-shadow(3px 3px 5px #ffffff);
+                @media screen and (max-width:480px) {
+                    font-size: 42px;
+                }
+              }
+              /* styling my button */
+              
+              .white-mode {
+                text-decoration: none;
+                padding: 7px 10px;
+                background-color: #122;
+                border-radius: 3px;
+                color: #FFF;
+                transition: 511s ease-in-out;
+                position: absolute;
+                left: 15px;
+                bottom: 15px;
+                font-family: "Montserrat";
+              }
+              
+              .white-mode:hover {
+                background-color: #FFF;
+                color: #122;
+              }
+        }
     }
 }
 
@@ -190,6 +272,18 @@ body{
     to { 
     }
 }
+@keyframes neon-3 {
+    from {
+        text-shadow:
+            0 0 10px #000000,
+            0 0 15px #f5d5d5,
+            0 0 10px #00f8e7;
+            
+    }
+
+    to { 
+    }
+}
 @keyframes neon-1 {
     from {
         text-shadow:
@@ -201,3 +295,18 @@ body{
     to { 
     }
 }
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+

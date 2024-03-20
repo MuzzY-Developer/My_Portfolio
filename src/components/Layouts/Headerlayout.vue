@@ -10,7 +10,15 @@ const Counter = useCounterStore()
     <img class="header__banner"   :src="Counter.img" alt="">
     <div class="header__container">
         <navbar/>
-       <h3 class="header__container-title">Zikrillaev<br><span>Khamidulla</span> </h3>
+        <div class="logo">
+          <div class="logo__name">
+          <h1 class="logo__name-text">Zikrillaev</h1>
+          </div>
+          <div class="logo__title">
+          <h1 class="logo__title-text">Khamidulla</h1>
+          </div>
+        </div>
+       
     </div>
   
 

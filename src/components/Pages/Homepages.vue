@@ -8,7 +8,7 @@
       <div class="homepages__container">
         <section class="homepages__container-section-1">
             <article class="homepages__container-section-1-article">
-          <h3 class="homepages__container-section-1-article-title">Я Fronted <br> разработчик!</h3>
+          <h3 class="homepages__container-section-1-article-title">Fronted <br> разработчик!</h3>
           <p class="homepages__container-section-1-article-subtitle">Я делаю удивительные вещи</p>
           <p class="homepages__container-section-1-article-text-1">Специализации:</p>
           <p class="homepages__container-section-1-article-text-2"> — программист разработчик</p>
@@ -22,7 +22,9 @@
             </div>   
             
         </section>
-       
+         <div class="linear-con-1"><div class="linear-con-1-line"></div></div>
+
+        
         <section class="homepages__container-section-2">
             <article class="homepages__container-section-2-article">
                 <p class="homepages__container-section-2-article-text">Разработчик: <br> веб приложение для внутреннего использования. Опыт небольшой. Команде разработчиков - написание веб-приложение на Vue.js. и React.js.</p>
@@ -35,6 +37,7 @@
             <p  class="homepages__container-section-2-cards-text"><span></span>Общительность</p>
             </div>
         </section>
+        <div class="linear-con-1"><div class="linear-con-1-line"></div></div>
 
         <section class="homepages__container-section-3">
            <div class="homepages__container-section-3-card-1">
@@ -82,6 +85,12 @@
                 <h5>Bootstrap 5,Tailwind</h5>
                 <span class="sp-4"></span>
                 <p>Отлично</p>
+                <h5>Vue.js</h5>
+                <span class="sp-4"></span>
+                <p>Отлично</p>
+                <h5>React</h5>
+                <span class="sp-5"></span>
+                <p>не плохо</p>
              </div>
            </div>
         </section>

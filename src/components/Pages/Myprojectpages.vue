@@ -9,10 +9,11 @@ import datafiles from '@/views/DataFiles'
                     <h3 class="myprojectpages__container-title">МОИ РАБОТЫ</h3>
             <div class="myprojectpages__container__cards">
 
-                <RouterLink to="/" class="myprojectpages__container__cards-card" v-for=" item in datafiles" :key="item">
+                <a :href="item.path" class="myprojectpages__container__cards-card" v-for=" item in datafiles" :key="item">
                       <video class="myprojectpages__container__cards-card-movie" :src="item.movie" autoplay loop muted></video>
                       <h4 class="myprojectpages__container__cards-card-title">{{item.name}}</h4>
-                </RouterLink>
+                      <p  :class="item.class">{{item.tegs}}</p>
+                </a>
 
             </div>
         </div>
