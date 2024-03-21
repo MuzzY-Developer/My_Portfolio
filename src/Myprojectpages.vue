@@ -63,7 +63,7 @@
                 <a href="https://totembosite.netlify.app/" class="myprojectpages__container__cards-card">
                       <video class="myprojectpages__container__cards-card-movie" autoplay loop muted src="./Totembo.mp4" ></video>
                       <h4 class="myprojectpages__container__cards-card-title">Totembo</h4>
-                      <p  class="myprojectpages__container__cards-card-subtitleedite">(В разработке)</p>
+                      <p  class="myprojectpages__container__cards-card-subtitlecompleted">(Есть 1440px,html,css)</p>
                 </a>
 
                 <a href="https://browserssites.netlify.app/" class="myprojectpages__container__cards-card">
