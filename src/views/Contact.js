@@ -25,9 +25,9 @@ const contact= [
         path:"",
     },
     {
-        name:"MuzzY-Devolpers",
+        name:"MuzzY-Devolper",
         img:icon4,
-        path:"https://github.com/",
+        path:"https://github.com/MuzzY-Devolper",
     },
     {
         name:"t.me/khamidulla441",
