@@ -15,19 +15,19 @@ const contact= [
         path:"tel:998990000441",
     },
     {
-        name:"KhameT-Devolpers@mail.ru",
+        name:"KhameT-Developer@mail.ru",
         img:icon2,
         path:"https://mail.ru/",
     },
     {
-        name:"KhameT-Devolpers@gmail.ru",
+        name:"KhameT-Developer@gmail.ru",
         img:icon3,
         path:"",
     },
     {
-        name:"MuzzY-Devolper",
+        name:"MuzzY-Developer",
         img:icon4,
-        path:"https://github.com/MuzzY-Devolper",
+        path:"https://github.com/MuzzY-Developer",
     },
     {
         name:"t.me/khamidulla441",
